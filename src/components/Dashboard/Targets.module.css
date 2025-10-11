@@ -1,0 +1,52 @@
+.target {
+    padding: 20px;
+}
+
+.target p {
+    color: #888;
+    font-family: "Open Sans", sans-serif;
+}
+
+.body {
+    flex: 1;
+}
+
+.iconProfit {
+    padding: 40px;
+    background-color: #cce3ff;
+}
+
+.iconProjects {
+    padding: 40px;
+    background-color: #fdecce;
+}
+
+.iconTeam {
+    padding: 40px;
+    background-color: #d3f3df;
+}
+
+.icon svg {
+    font-size: 1.25em;
+    line-height: 0.05em;
+    vertical-align: -0.075em;
+}
+
+.profit {
+    background-color: #0075ff;
+    color: #fff;
+}
+
+.projects {
+    background-color: #f59e0b;
+    color: #fff;
+}
+
+.team {
+    background-color: #22c55e;
+    color: #fff;
+}
+
+.details {
+    width: 100%;
+}

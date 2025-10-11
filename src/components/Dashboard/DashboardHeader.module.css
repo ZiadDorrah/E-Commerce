@@ -1,0 +1,64 @@
+.dashSearch {
+    position: relative;
+}
+
+.dashSearch .search {
+    width: 160px;
+    padding-left: 35px;
+    transition: width 0.3s ease;
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+}
+
+.dashSearch .search:hover {
+    width: 180px;
+}
+
+.dashSearch .search:focus {
+    width: 240px;
+    border-color: #999;
+}
+
+.dashSearch .searchIcon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    pointer-events: none;
+    color: #666;
+}
+
+/* --- Dash Control Section --- */
+.dashControl {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.notificationIcon {
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.notificationIcon:hover {
+    color: #111;
+    transform: scale(1.1);
+}
+
+.profileImg {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.profileImg:hover {
+    transform: scale(1.05);
+    border-color: #999;
+}

@@ -1,0 +1,58 @@
+.cards>* {
+    padding: 20px;
+}
+
+.cards svg {
+    font-size: 3.25em;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cards .productsicon svg {
+    font-size: 3.25em;
+    padding: 10px;
+    background-color: #dbeafe;
+    color: #2563eb;
+    border-radius: 8px;
+}
+
+.inStock h4 {
+    color: #16a34a;
+}
+
+.cards .inStockicon svg {
+    font-size: 3.25em;
+    padding: 10px;
+    background-color: #16a34a;
+    color: #dcfce7;
+    border-radius: 8px;
+}
+
+.lowStock h4 {
+    color: #ca8a04;
+}
+
+.cards .lowStockicon svg {
+    font-size: 3.25em;
+    padding: 10px;
+    background-color: #fef9c3;
+    color: #ca8a04;
+    border-radius: 8px;
+}
+
+.outStock h4 {
+    color: #dc2626;
+}
+
+.cards .outStockicon svg {
+    font-size: 3.25em;
+    padding: 10px;
+    background-color: #fee2e2;
+    color: #dc2626;
+    border-radius: 8px;
+}
+
+
+.cards>* {
+    margin-bottom: 10px;
+}

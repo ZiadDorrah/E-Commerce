@@ -1,0 +1,40 @@
+.dashboardLayout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(241, 245, 249);
+}
+
+.dashboardSidebar {
+  width: 250px;
+  background-color: #ffffff;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(221, 221, 221) 0px 0px 10px;
+  margin-right: 10px;
+}
+
+.dashboardMain {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.dashboardHeader {
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.dashboardContent {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+}

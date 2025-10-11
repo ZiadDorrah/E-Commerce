@@ -1,0 +1,39 @@
+.sidebar h5 {
+  color: #000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sideBarLinks {
+  list-style: none;
+  padding: 0;
+}
+
+.sideBarLinks li {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+/* hover effect */
+.sideBarLinks li:hover {
+  background-color: #f8f9fa;
+}
+
+/* active effect */
+.active {
+  background-color: #f0f3f7;
+}
+
+.sideBarLinks a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 100%;
+}
+
+.sideBarLinks a svg {
+  width: 1.25em;
+}
