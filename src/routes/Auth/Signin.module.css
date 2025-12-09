@@ -1,0 +1,71 @@
+.card {
+  background-color: #ffffff;
+  width: 550px;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+/* 🟢 success visual */
+.successCard {
+  background-color: #d4edda !important;
+  transform: scale(1.02);
+}
+
+.submit {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ success button */
+.successBtn {
+  background-color: #28a745 !important;
+  color: white !important;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+  transition: color 0.3s ease-in-out;
+  padding: 4px;
+}
+
+a:hover {
+  background-color: #ecf2fc;
+  border-radius: 10px;
+  color: #007bff;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ddd;
+  border-top-color: #007bff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.spinnerSmall {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #ddd;
+  border-top-color: #007bff;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

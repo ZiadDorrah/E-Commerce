@@ -218,3 +218,24 @@
     gap: 0.8rem;
   }
 }
+
+.cartListScrollable {
+  max-height: 350px;
+  /* adjust height */
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+/* nice smooth scrolling */
+.cartListScrollable::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cartListScrollable::-webkit-scrollbar-thumb {
+  background: #c3cad4;
+  border-radius: 8px;
+}
+
+.cartListScrollable::-webkit-scrollbar-thumb:hover {
+  background: #a7b1bd;
+}

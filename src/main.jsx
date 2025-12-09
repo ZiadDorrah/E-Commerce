@@ -17,11 +17,27 @@ import Orders from './Dashboard/Orders';
 import Products from './Dashboard/Products';
 import Settings from './Dashboard/Settings';
 import Logout from './Dashboard/Logout';
+import Signin from "./routes/Auth/Signin";
+import AdminLogin from "./routes/Auth/AdminLogin";
+import Signup from "./routes/Auth/Signup";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 const router = createBrowserRouter([
   {
+    path: '/login',
+    element: <Signin />,
+  },
+  {
+    path: '/adminLogin',
+    element: <AdminLogin />,
+  },
+  {
+    path: '/signup',
+    element: <Signup />,
+  },
+  {
     path: "/",
-    element: <RootLayout />,
+    element: <ProtectedRoute> <RootLayout /></ProtectedRoute>,
     children: [
       {
         index: true,
